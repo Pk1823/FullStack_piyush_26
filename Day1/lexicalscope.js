@@ -6,8 +6,9 @@ function  outerFunc() {
       let x = 5;
     let y = 6; 
 
-    function innerFunc() {
-        console.log(x);
+    function innerFunc() { // function Scope hai ye sirf inner me use hoga
+        
+        console.log(x);    
         console.log(y);
 
 }

@@ -14,6 +14,8 @@
 // //multipleGreet(greet,10 );
 // multipleGreet(function() { console.log("namaste")}, 1000);
 
+
+
 // Return a function
  
 
@@ -25,6 +27,8 @@
 // let even = function(n) {
 //     console.log((n%2 == 0));
 // }
+
+
 function oddOrEvenFactory(request) {
     if(request == "odd") {
         let odd = function(n) {

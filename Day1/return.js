@@ -3,7 +3,9 @@
 // function funcName(arg1, arg2.. ) {
 // do something
 // return val;
-// }
+// } 
+// return only one 
+// when multiple value  then object and ds ya arr ke ander
 
 // let arr = [1,2,3,4];
 //  arr.slice(2,4)  
