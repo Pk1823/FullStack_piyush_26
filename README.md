@@ -37,6 +37,7 @@ This repository contains my daily learning and practice of Full Stack Web Develo
 - map.js
 - Rest.js
 - Spread.js
+- Destructing.js
 
 ## Repository Structure
 
