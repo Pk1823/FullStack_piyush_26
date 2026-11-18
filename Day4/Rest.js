@@ -4,7 +4,7 @@
 
 
 // function sum(...args) {
-r//eturn args.reduce((add, el) => add + el);    }
+//return args.reduce((add, el) => add + el);    }
 
 
 
