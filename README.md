@@ -38,6 +38,14 @@ This repository contains my daily learning and practice of Full Stack Web Develo
 - Rest.js
 - Spread.js
 - Destructing.js
+### Day 5
+- amazing.jpg
+- app.js
+- Dom.js
+- index.html
+- Marvel.jpg
+- spiderman.jpg
+- style.css
 
 ## Repository Structure
 
@@ -47,6 +55,8 @@ fullstack_full_code/
 ├── Day2/
 ├── Day3/
 └── Day4/
+└── Day5/
+
 ```
 
 ## Author
