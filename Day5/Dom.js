@@ -97,3 +97,49 @@
 
 // getElementByClassName
 // Returns the Elements as an HTML COllection or empty collection )(if not found)
+
+
+let smallImages = document.getElementsByClassName("oldImg");
+
+for(let i = 0; i < smallImages.length; i++) { 
+console.dir(smallImages[i]);
+
+  // smallImages[i].src = "spiderman.jpg";
+  // console.log('value of image no. ${i} is changed. ');
+
+console.dir(smallImages[i].src);
+} 
+
+
+
+/* SELECTING ELEMENTS*/    // By tag  Name
+// Returns the Elements as an HTML COllection or empty collection )(if not found)
+// document.getElementsByTagName("p");
+// HTMLCollection(2) [p, p#description, description: p#description]
+// 0
+// : 
+// p
+// 1
+// : 
+// p#description
+// description
+// : 
+// p#description
+// length
+// : 
+// 2
+// [[Prototype]]
+// : 
+// HTMLCollection
+
+// document.getElementsByTagName("span");
+// HTMLCollection []
+// length
+// : 
+// 0
+// [[Prototype]]
+// : 
+// HTMLCollection
+
+ 
+
