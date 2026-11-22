@@ -47,6 +47,12 @@ This repository contains my daily learning and practice of Full Stack Web Develo
 - spiderman.jpg
 - style.css
 
+### Day6
+- app.js
+- DOMevents.js
+- index.html
+- style.css
+
 ## Repository Structure
 
 ```text
@@ -56,6 +62,7 @@ fullstack_full_code/
 ├── Day3/
 └── Day4/
 └── Day5/
+|__ Day6/
 
 ```
 
