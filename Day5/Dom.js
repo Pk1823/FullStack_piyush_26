@@ -99,16 +99,16 @@
 // Returns the Elements as an HTML COllection or empty collection )(if not found)
 
 
-let smallImages = document.getElementsByClassName("oldImg");
+// let smallImages = document.getElementsByClassName("oldImg");
 
-for(let i = 0; i < smallImages.length; i++) { 
-console.dir(smallImages[i]);
+// for(let i = 0; i < smallImages.length; i++) { 
+// console.dir(smallImages[i]);
 
-  // smallImages[i].src = "spiderman.jpg";
-  // console.log('value of image no. ${i} is changed. ');
+//   // smallImages[i].src = "spiderman.jpg";
+//   // console.log('value of image no. ${i} is changed. ');
 
-console.dir(smallImages[i].src);
-} 
+// console.dir(smallImages[i].src);
+// } 
 
 
 
@@ -143,3 +143,13 @@ console.dir(smallImages[i].src);
 
  
 
+/*  USING PROPERTIES & METHODS*/
+
+// InnerText
+// shows the visible text contained in a node 
+
+//textContent 
+// Shows all the full text
+
+// innerHTML
+// shows the full markup
