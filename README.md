@@ -52,6 +52,8 @@ This repository contains my daily learning and practice of Full Stack Web Develo
 - DOMevents.js
 - index.html
 - style.css
+### Day7
+- index.html
 
 ## Repository Structure
 
@@ -63,6 +65,7 @@ fullstack_full_code/
 └── Day4/
 └── Day5/
 |__ Day6/
+|__Day7/
 
 ```
 
