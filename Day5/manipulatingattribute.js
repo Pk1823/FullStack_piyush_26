@@ -3,8 +3,8 @@
 /* Manipulating Attribute  */
 
 
-// obj.getAttribute(attr)
-// obj.setAttribute(attr, val)     getters and setters 
+obj.getAttribute(attr)
+obj.setAttribute(attr, val)     // getters and setters 
 
 
 
