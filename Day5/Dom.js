@@ -113,6 +113,7 @@
 
 
 /* SELECTING ELEMENTS*/    // By tag  Name
+
 // Returns the Elements as an HTML COllection or empty collection )(if not found)
 // document.getElementsByTagName("p");
 // HTMLCollection(2) [p, p#description, description: p#description]
