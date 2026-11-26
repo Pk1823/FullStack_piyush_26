@@ -1,64 +1,68 @@
-<body>
-  <h1>Spider Man</h1>
-  <img src="spiderman.jpg" id="mainImg" />
-  <h2>About</h2>
-  <p>
-    <b>Spider-Man</b> is a superhero appearing in American comic books published by
-    <a href="Marvel.jpg"></a>Marvel Comics</a>.
-    Created by writer-editor <b>Stan Lee</b> and artist <b>Steve Ditko</b>, he
-    first appeared in the anthology comic book
-    <a href="amazing.jpg"
-      >Amazing Fantasy</a
-    >
-    #15 (August 1962) in the
-    <a href="#">Silver Age of Comic Books</a>. He has been featured in comic
-    books, television shows, films, video games, novels, and plays
-  </p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spider-Man — DOM Practice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Spider Man</h1>
+    <img src="spiderman.jpg" id="mainImg" class="pk ankur" alt="Spider-Man" />
 
-  <div class="box" style = "background-color: lightgray">
-    <h4>Publication Info</h4>
-    <ul>
-      <li><a href="#" class="boxLink">Publisher</a></li>
-      <li><a href="#" class="boxLink">First Appearance</a></li>
-      <li>
-        Created by
-        <ul>
-          <li><a href="#" class="boxLink">Stan Lee</a></li>
-          <li><a href="#" class="boxLink">Steve Ditko</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+    <h2>About</h2>
+    <p>
+      <b>Spider-Man</b> is a superhero appearing in American comic books published by
+      <a href="Marvel.jpg">Marvel Comics</a>.
+      Created by writer-editor <b>Stan Lee</b> and artist <b>Steve Ditko</b>, he
+      first appeared in the anthology comic book
+      <a href="amazing.jpg">Amazing Fantasy</a>
+      #15 (August 1962) in the
+      <a href="#">Silver Age of Comic Books</a>. He has been featured in comic
+      books, television shows, films, video games, novels, and plays.
+    </p>
 
-  <h2>Creation & Development</h2>
-  <p id="description">
-    In 1962, with the success of the Fantastic Four, Marvel Comics editor and
-    head writer Stan Lee was casting for a new superhero idea. He said the
-    idea for Spider-Man arose from a surge in teenage demand for comic books
-    and the desire to create a character with whom teens could identify. As
-    with Fantastic Four, Lee saw Spider-Man as an opportunity to "get out of
-    his system" what he felt was missing in comic books. In his autobiography,
-    Lee cites the non-superhuman pulp magazine crime fighter the Spider as a
-    great influence, and in a multitude of print and video interviews, Lee
-    stated he was further inspired by seeing a spider climb up a wall—adding
-    in his autobiography that he has told that story so often he has become
-    unsure of whether or not this is true.
-  </p>
+    <div class="box" style="background-color: lightgray;">
+      <h4>Publication Info</h4>
+      <ul>
+        <li><a href="#" class="boxLink">Publisher</a></li>
+        <li><a href="#" class="boxLink">First Appearance</a></li>
+        <li>
+          Created by
+          <ul>
+            <li><a href="#" class="boxLink">Stan Lee</a></li>
+            <li><a href="#" class="boxLink">Steve Ditko</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
 
-  <div class="images">
-    <img src="images.jpg" class="oldImg" />   
-    <img src="robot.jpg" class="oldImg" />
-    <img src="marvel combine.jpg" class="oldImg" />
-  </div>
+    <h2>Creation &amp; Development</h2>
+    <p id="description">
+      In 1962, with the success of the Fantastic Four, Marvel Comics editor and
+      head writer Stan Lee was casting for a new superhero idea. He said the
+      idea for Spider-Man arose from a surge in teenage demand for comic books
+      and the desire to create a character with whom teens could identify. As
+      with Fantastic Four, Lee saw Spider-Man as an opportunity to "get out of
+      his system" what he felt was missing in comic books. In his autobiography,
+      Lee cites the non-superhuman pulp magazine crime fighter the Spider as a
+      great influence, and in a multitude of print and video interviews, Lee
+      stated he was further inspired by seeing a spider climb up a wall—adding
+      in his autobiography that he has told that story so often he has become
+      unsure of whether or not this is true.
+    </p>
 
-  <!-- <script src="app.js"></script> -->
-  <!-- <script src="Dom.js"></script> -->
-   <!-- <script src="QuerySelectors.js"></script> -->
-      <script src="manipulatingStyle.js"></script>
-   
-</body>
-```[cite: 2, 3, 4]
+    <div class="images">
+      <img src="images.jpg" class="oldImg" alt="Comic panel 1" />
+      <img src="robot.jpg" class="oldImg" alt="Robot illustration" />
+      <img src="marvel combine.jpg" class="oldImg" alt="Marvel characters" />
+    </div>
 
-*(Note: The top `<html>` and `<head>` tags aren't visible at the very top of the screenshots, and `app.js` / `Dom.js` is currently blank in the editor[cite: 1, 2].)*
-
-Would you like a starter `<html>` boilerplate around this or some DOM selection/manipulation examples for `app.js`?
+    <!-- Enable the script you want to run -->
+    <script src="app.js"></script>
+    <script src="style.css"></script>
+    <!-- <script src="Dom.js"></script> -->
+    <!-- <script src="QuerySelectors.js"></script> -->
+    <!-- <script src="manipulatingStyle.js"></script> -->
+  </body>
+</html>
