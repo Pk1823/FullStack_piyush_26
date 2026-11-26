@@ -12,3 +12,8 @@ for (link of links) {
 //     links[i].style.color = "green";
 
 // } 
+
+// let box = document.querySelector('.box');
+// undefined
+// box.style;
+// CSSStyleDeclaration {0: 'background-color', accentColor: '', additiveSymbols: '', alignContent: '', alignItems: '', alignSelf: '', …}
