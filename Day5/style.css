@@ -2,6 +2,15 @@ body {
   font-family: Arial;
 }
 
+
+.green {
+  color: green;
+  /* text-decoration: underline black wavy; */
+}
+
+.underline {
+ text-decoration: underline purple wavy;
+}
 #mainImg {
   width: 35%;
 }
