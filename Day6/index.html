@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,5 +7,44 @@
 </head>
 <body>
     <script src = "DOMevents.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day 6 — DOM Events & Mouse Pointer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Day 6: DOM Events & Mouse Pointer</h1>
+
+    <section class="card" id="event-box">
+      <h2>Event Listener Demo</h2>
+      <p id="status-text">Status: Waiting for interaction...</p>
+      <div class="btn-group">
+        <button id="click-btn" type="button">Click Me</button>
+        <button id="toggle-btn" type="button">Toggle Highlight</button>
+      </div>
+      <input id="name-input" type="text" placeholder="Type something and press Enter..." />
+    </section>
+
+    <section class="card" id="pointer-area">
+      <h2>Mouse Pointer Tracker</h2>
+      <p id="coords">Move your mouse inside this box (X: 0, Y: 0)</p>
+      <div id="tracker-pad">
+        <span id="dot"></span>
+      </div>
+    </section>
+  </main>
+
+  <script src="DOMevents.js"></script>
+  <script src="eventlisterforele.js"></script>
+  <script src="Mousepointer.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
